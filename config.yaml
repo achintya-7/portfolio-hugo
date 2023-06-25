@@ -1,0 +1,96 @@
+baseURL: "https://example.org"
+languageCode: en-us
+title: Achintya
+theme: PaperMod
+paginate: 5
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
+    - identifier: blog
+      name: Blog
+      url: /blog
+      weight: 20
+    # - identifier: projects
+    #   name: Projects
+    #   url: /projects
+    #   weight: 30
+    - identifier: experience
+      name: Experience
+      url: /experience
+      weight: 40
+
+params:
+  # theme
+  showToc: true
+  TocOpen: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  hideMeta: false
+
+  # for enchanced SEO
+  env: production
+
+  # Home Page
+  profileMode:
+    enabled: true
+    title: "Achintya"
+    subtitle: "Hi, I am Achintya. A Go and Flutter developer. Blogger. YouTuber. Open Source Enthusiast.
+               I love to build Mobile Apps and is a lot into Backend Engineering."
+    
+    # buttons:
+    #   - name: Resume
+    #     url: ""
+
+  # List View
+  hideDescriptionInList: false
+
+  # cover image for posts
+  cover:
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+  socialIcons:
+    - name: "email"
+      url: "mailto:achintya22052000@gmail.com"
+    - name: "github"
+      url: "https://github.com/achintya-7"
+    - name: "twitter"
+      url: "https://twitter.com/achintya2205"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/achintya-singh-4b4563200/"
+    # - name: "youtube"
+    #   url: "https://www.youtube.com/c/AbdurRahmanKalim"
+    # - name: "cv"
+    #   url: "https://drive.google.com/file/d/1U6Gg2RnHSCthtWLbZJBlAEI3V1WGjZty/view"
+
+  # text search
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+# for search using Fuse.js
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+# allow HTML in MD
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
