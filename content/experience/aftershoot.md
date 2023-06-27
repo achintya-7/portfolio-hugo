@@ -4,10 +4,7 @@ description: "AfterShoot"
 dateString: Feb 2023 - Ongoing
 draft: false
 tags: ["GO", "Docker", "PubSub", "PostgresSQL", "GCP", "Gin"]
-showToc: true
-weight: 301
-# cover:
-#     image: "/experience/aftershoot.jpg"
+weight: 350
 --- 
 
 ### Description
