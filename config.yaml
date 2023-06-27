@@ -43,9 +43,10 @@ params:
   profileMode:
     enabled: true
     title: "Achintya"
+    imageUrl: "/me.jpg"
     subtitle: "Hi, I am Achintya. A Go and Flutter developer. Blogger. YouTuber. Open Source Enthusiast.
                I love to build Mobile Apps and is a lot into Backend Engineering."
-    
+
     # buttons:
     #   - name: Resume
     #     url: ""
