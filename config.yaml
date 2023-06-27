@@ -67,8 +67,8 @@ params:
       url: "https://twitter.com/achintya2205"
     - name: "linkedin"
       url: "https://www.linkedin.com/in/achintya-singh-4b4563200/"
-    # - name: "youtube"
-    #   url: "https://www.youtube.com/c/AbdurRahmanKalim"
+    - name: "youtube"
+      url: "https://www.youtube.com/channel/UCpQmlFxQ8VbDZklh6-PZLOA"
     # - name: "cv"
     #   url: "https://drive.google.com/file/d/1U6Gg2RnHSCthtWLbZJBlAEI3V1WGjZty/view"
 
